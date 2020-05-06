@@ -157,6 +157,7 @@
 │   │   │   ├── RKISP_Driver_User_Manual_v1.2_20190508.pdf
 │   │   │   ├── Rockchip_Developer_Guide_Linux_Camera_CN.pdf
 │   │   │   ├── Rockchip_Developer_Guide_Linux_Camera_EN.pdf
+│   │   │   ├── Rockchip_Developer_Guide_Linux_RMSL_CN.pdf
 │   │   │   └── Rockchip_Trouble_Shooting_Linux4.4_Camera_CN.pdf
 │   │   ├── Linux rga说明文档.pdf
 │   │   ├── MPP development reference_v0.3.pdf
@@ -256,18 +257,18 @@
 │   │   ├── RK3328 BOX EVB硬件使用指南V1.0_20170223.pdf
 │   │   ├── RK3328_Linux_Release_Note.pdf
 │   │   ├── RK3328 Multimedia Codec Benchmark v1.0.pdf
-│   │   ├── Rockchip RK3328 Datasheet V1.2-20180205.pdf
 │   │   └── Rockchip_RK3328_Linux_SDK_Release_V1.0.0_20181102_CN.pdf
 │   ├── RK3399
 │   │   ├── RK3399_Linux_NN_SDK_V1.0_20180713发布说明.pdf
 │   │   ├── RK3399_Linux_SDK_Release_Note.txt
+│   │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_CN.pdf
+│   │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_EN.pdf
 │   │   ├── RK3399 Multimedia Codec Benchmark v1.2.pdf
 │   │   ├── RK3399_SSD_Android&Linux_V1.0_20180522.pdf
 │   │   ├── Rockchip-Developer-Guide-linux4.4-MCU.pdf
 │   │   ├── Rockchip RK3399 Datasheet V1.8-20180529.pdf
-│   │   ├── Rockchip_RK3399_Linux_SDK_Release_V2.3.0_20191203_CN.pdf
-│   │   ├── Rockchip_RK3399_Linux_SDK_Release_V2.3.0_20191203_EN.pdf
-│   │   └── Rockchip RK3399挖掘机用户使用指南_V3.0_20190305.pdf
+│   │   ├── Rockchip_RK3399_User_Manual_IND_EVB_V1.0_CN.pdf
+│   │   └── Rockchip_RK3399_User_Manual_Sapphire_EVB_V3.0_CN.pdf
 │   └── RK3399PRO
 │       ├── RK3399PRO_Linux_SDK_Release_Note.txt
 │       ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_CN.pdf
