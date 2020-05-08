@@ -1,5 +1,56 @@
 ===========RK3399 Linux SDK Release Note===========
 
+¡¾rk3399_linux_release_v2.4.0_20200430.xml change log¡¿
+
+ Buildroot (2018.02-rc3):
+    - Add rktof to app_demo
+    - Update dviceio to fix some bugs
+    - Gstreamer supports dmabuf direct import
+    - Fixes the fonts with buildroot
+
+ Distro (debian10):
+    - Fixes e2fsck error with generating rootfs
+
+ Yocto (2.6):
+    - THe source code used the rockchip inside server to instead of github.
+
+ Kernel (4.4):
+    - Support the rk3399 evb ind board
+
+ rkbin (Rockchip binary):
+    - rk3399: bl31: update version to v1.33
+	Build from ATF commit:
+	51fa19792 plat: rk3399: enable stimer1
+	update feature:
+	51fa19792 plat: rk3399: enable stimer1
+    - rk3399: bl32: update version to 1.24
+	Build from optee commit in develop branch:
+		ebb61ff5 core: arm64.S: spectre workaround
+	Update feature:
+		f8d366cb core: arm64: pad vector with illegal instruction
+		8ed4c89a core: thread_a64.S: cleanup vector entries
+    - rk3399: loader: update loader bin to 1.24.
+	build from:
+	67c868 update rk3399 loader to 1.25.
+	update feature:
+		Add program key to efuse in miniloader
+		fix some security hole
+
+ docs/tools:
+    - Add RMSL developer guide
+    - Update Kernel documents
+    - Update rk3399 release document to v2.4.0
+    - Add mpp/weston/chromecast/debian10 document
+    - Update window/linux upgrade tools
+	AndroidTool: update from v2.69 to v2.71
+	Linux_Upgrade_Tool: update from v1.38 to v1.49
+
+Debian (stretch-9.11):
+    - Update xserver
+    - Add pcmanfm with outline selection
+    - Support the xvimagesink for gstreamer
+    - Update mpv with hardware decode
+
 ¡¾rk3399_linux_release_v2.3.1_20191223.xml change log¡¿
 
  Buildroot (2018.02-rc3):
