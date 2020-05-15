@@ -174,7 +174,7 @@
 │   │   ├── Rockchip_Developer_Guide_Linux_Recovery_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf
 │   │   └── Rockchip_Developer_Guide_Linux_Upgrade_EN.pdf
-│   ├── Secure
+│   ├── security
 │   │   ├── Rockchip_Developer_Guide_Linux4.4_SecureBoot_CN.pdf
 │   │   └── Rockchip_Developer_Guide_Linux4.4_SecureBoot_EN.pdf
 │   └── Wifibt
@@ -211,6 +211,10 @@
 │       └── WIFI性能测试
 │           ├── iperf-2.0.5-2-win32.zip
 │           └── 性能测试.txt
+├── Others
+│   ├── Rockchip_SDK_Kit_Application_Form.docx
+│   ├── Rockchip_User_Guide_Bug_System_CN.pdf
+│   └── Rockchip_User_Guide_SDK_Application_And_Synchronization_CN.pdf
 ├── Release_patches
 │   └── RK3399PRO
 │       ├── buildroot
@@ -222,72 +226,92 @@
 │       └── rkbin
 │           ├── 0001-rkbin-change-uart1-for-miniloader.patch
 │           └── git-merge-base.txt
-├── Rockchip_Developer_Guide_Linux_Software_CN.pdf
-├── Rockchip_Developer_Guide_Linux_Software_EN.pdf
-├── Soc_public
-│   ├── PX30
-│   │   ├── PX30_Linux_SDK_Release_Note.txt
-│   │   ├── PX30 MINI EVB硬件操作指南_20180710.pdf
-│   │   ├── Rockchip PX30 Datasheet V1.1-20180918.pdf
-│   │   ├── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
-│   │   └── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
-│   ├── RK1808
-│   │   ├── RK1808 Linux SDK Release Note.txt
-│   │   ├── RK1808 EVB用户指南_V10_20181226.pdf
-│   │   ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
-│   │   ├── Rockchip_RK1806_Developer_Guide_Linux_Ficial_Gate_CN.pdf
-│   │   ├── Rockchip_RK1808_Developer_Guide_Linux_Compute_Stick_CN.pdf
-│   │   ├── Rockchip_RK1808_Developer_Guide_Linux_Docker_CN.pdf
-│   │   ├── Rockchip_RK1808_Instruction_Linux_AI_Camera_Demo_CN.pdf
-│   │   ├── Rockchip_RK1808_Linux_SDK_Release_V1.1.0_20190808_CN.pdf
-│   │   └── Rockchip_RK1808_Linux_SDK_Release_V1.1.0_20190808_EN.pdf
-│   ├── RK3288
-│   │   ├── RK3288 Linux SDK Release Note.pdf
-│   │   ├── RK3288 Multimedia Codec Benchmark v1.8.pdf
-│   │   ├── Rockchip RK3288 Datasheet V2.4-20180530.pdf
-│   │   └── Rockchip_RK3288_Linux_SDK_Release_V2.1.0_20180926_CN.pdf
-│   ├── RK3326
-│   │   ├── RK3326 EVB开发板用户指南v10_20180705.pdf
-│   │   ├── RK3326_Linux_SDK_Release_Note.txt
-│   │   ├── RK3326 Multimedia Codec Benchmark v1.1.pdf
-│   │   ├── Rockchip RK3326 Datasheet V1.1 20180411.pdf
-│   │   ├── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
-│   │   └── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
-│   ├── RK3328
-│   │   ├── RK3328 BOX EVB硬件使用指南V1.0_20170223.pdf
-│   │   ├── RK3328_Linux_Release_Note.pdf
-│   │   ├── RK3328 Multimedia Codec Benchmark v1.0.pdf
-│   │   └── Rockchip_RK3328_Linux_SDK_Release_V1.0.0_20181102_CN.pdf
-│   ├── RK3399
-│   │   ├── RK3399_Linux_NN_SDK_V1.0_20180713发布说明.pdf
-│   │   ├── RK3399_Linux_SDK_Release_Note.txt
-│   │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_CN.pdf
-│   │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_EN.pdf
-│   │   ├── RK3399 Multimedia Codec Benchmark v1.2.pdf
-│   │   ├── RK3399_SSD_Android&Linux_V1.0_20180522.pdf
-│   │   ├── Rockchip-Developer-Guide-linux4.4-MCU.pdf
-│   │   ├── Rockchip RK3399 Datasheet V1.8-20180529.pdf
-│   │   ├── Rockchip_RK3399_User_Manual_IND_EVB_V1.0_CN.pdf
-│   │   └── Rockchip_RK3399_User_Manual_Sapphire_EVB_V3.0_CN.pdf
-│   └── RK3399PRO
-│       ├── RK3399PRO_Linux_SDK_Release_Note.txt
-│       ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_CN.pdf
-│       ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_EN.pdf
-│       ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
-│       ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_EN.pdf
-│       ├── Rockchip_RK3399Pro_Instruction_Linux_NPU_CN.pdf
-│       ├── Rockchip_RK3399Pro_User_Guide_Hardware_CN.pdf
-│       └── Rockchip_RK3399Pro_User_Guide_Hardware_EN.pdf
-└── Tools
-    ├── Android 增加一个分区配置指南 V1.00.pdf
-    ├── Linux开发工具使用手册_v1.32.pdf
-    ├── REPO镜像服务器搭建和管理_V2.2_20131231.pdf
-    ├── Rockchip-Parameter-File-Format-Version1.4.pdf
-    ├── Rockchip_RK3308_User_Manual_Linux_Audio_EQ_TOOL_CN.pdf
-    ├── Rockchip Bug 系统使用指南 V1.0-201712.pdf
-    ├── Rockchip SDK Kit申请指南 V1.6-201905.pdf
-    ├── Rockchip 量产烧录 指南 V1.1-20170214.pdf
-    ├── SecureBoot开发工具指南.pdf
-    ├── WNpctool简要使用说明_V1.1.0_0920.pdf
-    └── 瑞芯微开发工具手册_v1.1.pdf
-
+└── Socs
+    ├── PX30
+    │   ├── PX30_Linux_SDK_Release_Note.txt
+    │   ├── PX30 MINI EVB硬件操作指南_20180710.pdf
+    │   ├── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
+    │   └── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
+    ├── PX3SE
+    │   ├── Rockchip_PX3SE_Linux_SDK_Release_Note_EN.pdf
+    │   ├── Rockchip_PX3SE_Linux_SDK_Release_V0.0.3_20180817_CN.pdf
+    │   └── Rockchip_RK312x_Multimedia_Codec_Benchmark_V1.1.0_EN.pdf
+    ├── RK1808
+    │   ├── RK1808 Linux SDK Release Note.txt
+    │   ├── RK1808 EVB用户指南_V10_20181226.pdf
+    │   ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
+    │   ├── Rockchip_RK1806_Developer_Guide_Linux_Ficial_Gate_CN.pdf
+    │   ├── Rockchip_RK1808_Developer_Guide_Linux_Compute_Stick_CN.pdf
+    │   ├── Rockchip_RK1808_Developer_Guide_Linux_Docker_CN.pdf
+    │   ├── Rockchip_RK1808_Instruction_Linux_AI_Camera_Demo_CN.pdf
+    │   ├── Rockchip_RK1808_Linux_SDK_Release_V1.1.0_20190808_CN.pdf
+    │   └── Rockchip_RK1808_Linux_SDK_Release_V1.1.0_20190808_EN.pdf
+    ├── RK312X
+    │   ├── RK312x Multimedia Codec Benchmark v1.1.pdf
+    │   └── Rockchip_RK312X_Linux_SDK_Beta_V0.1.1_20190429_CN.pdf
+    ├── RK3288
+    │   ├── RK3288 Linux SDK Release Note.pdf
+    │   ├── RK3288 Multimedia Codec Benchmark v1.8.pdf
+    │   └── Rockchip_RK3288_Linux_SDK_Release_V2.1.0_20180926_CN.pdf
+    ├── RK3308
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_32Bit_Build_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Aispeech_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Asound_Configuration_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Audio_Codec_Benchmark_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Audio_Gain_Control_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Display_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_DuerOS_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_EVB_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Infrared_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_Input_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_LED_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_LocalPlayer_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_RK816_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_SD_USB_Storage_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_VAD_Hardware_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_VAD_iFLY_CN.pdf
+    │   ├── Rockchip_RK3308_Developer_Guide_Linux_VAD_Register_Configuration_CN.pdf
+    │   ├── Rockchip_RK3308_Introduction_Linux_Audio_Codec_CN.pdf
+    │   ├── Rockchip_RK3308_Linux_SDK_Release_V1.3.2_20191031_CN.pdf
+    │   ├── Rockchip_RK3308_Quick_Start_Linux_SDK_CN.pdf
+    │   └── Rockchip_RK3308_User_Manual_Linux_Audio_EQ_TOOL_CN.pdf
+    ├── RK3326
+    │   ├── RK3326 EVB开发板用户指南v10_20180705.pdf
+    │   ├── RK3326_Linux_SDK_Release_Note.txt
+    │   ├── RK3326 Multimedia Codec Benchmark v1.1.pdf
+    │   ├── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
+    │   └── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
+    ├── RK3328
+    │   ├── RK3328 BOX EVB硬件使用指南V1.0_20170223.pdf
+    │   ├── RK3328_Linux_Release_Note.pdf
+    │   ├── RK3328 Multimedia Codec Benchmark v1.0.pdf
+    │   └── Rockchip_RK3328_Linux_SDK_Release_V1.0.0_20181102_CN.pdf
+    ├── RK3399
+    │   ├── RK3399_Linux_NN_SDK_V1.0_20180713发布说明.pdf
+    │   ├── RK3399_Linux_SDK_Release_Note.txt
+    │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_CN.pdf
+    │   ├── RK3399_Linux_SDK_Release_V2.4.0_20200430_EN.pdf
+    │   ├── RK3399 Multimedia Codec Benchmark v1.2.pdf
+    │   ├── RK3399_SSD_Android&Linux_V1.0_20180522.pdf
+    │   ├── Rockchip-Developer-Guide-linux4.4-MCU.pdf
+    │   ├── Rockchip_RK3399_User_Manual_IND_EVB_V1.0_CN.pdf
+    │   └── Rockchip_RK3399_User_Manual_Sapphire_EVB_V3.0_CN.pdf
+    ├── RK3399PRO
+    │   ├── RK3399PRO_Linux_SDK_Release_Note.txt
+    │   ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_CN.pdf
+    │   ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_EN.pdf
+    │   ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
+    │   ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_EN.pdf
+    │   ├── Rockchip_RK3399Pro_Instruction_Linux_NPU_CN.pdf
+    │   ├── Rockchip_RK3399Pro_User_Guide_Hardware_CN.pdf
+    │   └── Rockchip_RK3399Pro_User_Guide_Hardware_EN.pdf
+    └── RV1109
+        ├── Rockchip_Developer_Guide_Linux_Application_Framework_CN.pdf
+        ├── Rockchip_Instructions_Linux_MediaServer_CN.pdf
+        ├── Rockchip_Instructions_Linux_Web_Configuration_CN.pdf
+        ├── Rockchip_RV1126_RV1109_EVB_User_Guide_V1.0_CN.pdf
+        ├── Rockchip_RV1126_RV1109_EVB_User_Guide_V1.0_EN.pdf
+        ├── Rockchip_RV1126_RV1109_Linux_SDK_Alpha_V0.1_20200428_CN.pdf
+        ├── Rockchip_RV1126_RV1109_Linux_Smart_Camera_SDK_Alpha_V0.1.0_20200511_CN.pdf
+        ├── Rockchip_RV1126_RV1109_Quick_Start_Linux_CN.pdf
+        └── Rockchip_RV1126_RV1109_Quick_Start_Linux_Smart_Camera_CN.pdf
