@@ -183,7 +183,7 @@
 │   │   ├── Rockchip_Developer_Guide_Linux_Recovery_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf
 │   │   └── Rockchip_Developer_Guide_Linux_Upgrade_EN.pdf
-│   ├── security
+│   ├── Security
 │   │   ├── Rockchip_Developer_Guide_Linux4.4_SecureBoot_CN.pdf
 │   │   └── Rockchip_Developer_Guide_Linux4.4_SecureBoot_EN.pdf
 │   └── Wifibt
