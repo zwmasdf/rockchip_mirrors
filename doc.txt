@@ -176,7 +176,6 @@
 │   │   ├── Rockchip_Developer_Guide_Linux_Gstreamer_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_OpenCV_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_RGA_CN.pdf
-│   │   ├── Rockchip_Developer_Guide_Linux_RMSL_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_MPP_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_MPP_EN.pdf
 │   │   ├── Rockchip_Instructions_Linux_Rkmedia_CN.pdf
