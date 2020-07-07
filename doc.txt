@@ -28,9 +28,11 @@
 │   │   ├── Rockchip_Developer_Guide_OpenOCD_CN.pdf
 │   │   └── Rockchip_User_Guide_J-Link_CN.pdf
 │   ├── DISPLAY
+│   │   ├── Rockchip_Developer_Guide_HDMI-PHY-PLL_Config_CN.pdf
 │   │   ├── Rockchip DRM Display Driver Development Guide V1.0.pdf
 │   │   ├── rockchip_drm_integration_helper-zh.pdf
-│   │   └── Rockchip_DRM_Panel_Porting_Guide_V1.6_20190228.pdf
+│   │   ├── Rockchip_DRM_Panel_Porting_Guide_V1.6_20190228.pdf
+│   │   └── Rockchip_Uboot_Logo_Switch_To_Kernel_Logo_Scheme_Optimization.pdf
 │   ├── DVFS
 │   │   ├── Rockchip_Developer_Guide_CPUFreq_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_CPUFreq_EN.pdf
@@ -39,7 +41,8 @@
 │   ├── FS
 │   │   └── Rockchip_Developer_FAQ_FileSystem_CN.pdf
 │   ├── GMAC
-│   │   └── Rockchip 以太网 开发指南 V2.3.1-20160708.pdf
+│   │   ├── Rockchip_Developer_Guide_Linux_GMAC_RGMII_Delayline_CN.pdf
+│   │   └── Rockchip_Developer_Guide_Linux_GMAC_RGMII_Delayline_EN.pdf
 │   ├── I2C
 │   │   └── Rockchip_Developer_Guide_I2C_CN.pdf
 │   ├── IO-DOMAIN
@@ -121,7 +124,8 @@
 │   │   ├── Rockchip_Developer_Guide_USB_SQ_Test_CN.pdf
 │   │   └── Rockchip_RK3399_Developer_Guide_USB_DTS_CN.pdf
 │   └── WATCHDOG
-│       └── Rockchip_Developer_Guide_Linux_WDT_CN.pdf
+│       ├── Rockchip_Developer_Guide_Linux_WDT_CN.pdf
+│       └── Rockchip_Developer_Guide_Linux_WDT_EN.pdf
 ├── Linux
 │   ├── ApplicationNote
 │   │   ├── Rockchip_Developer_Guide_Buildroot_Weston_CN.pdf
@@ -132,6 +136,8 @@
 │   │   ├── Rockchip_Developer_Guide_Linux_Application_Framework_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_DS5_Streamline_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_PCBA_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Linux_RKNN_Demo_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Linux_RKNN_Demo_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_SPL_MTD_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_QT_Application_CN.pdf
@@ -228,4 +234,3 @@
 │   ├── Rockchip_Instruction_Guide_Linux_Software_Test_CN.pdf
 │   ├── Rockchip_User_Guide_Bug_System_CN.pdf
 │   └── Rockchip_User_Guide_SDK_Application_And_Synchronization_CN.pdf
-62 directories, 267 files
