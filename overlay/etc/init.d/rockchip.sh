@@ -118,7 +118,7 @@ then
 fi
 
 # support power management
-if [ -e "/usr/sbin/pm-suspend" -a -e /etc/Powermanageer ] ;
+if [ -e "/usr/sbin/pm-suspend" -a -e /etc/Powermanager ] ;
 then
     mv /etc/Powermanager/power-key.sh /usr/bin/
     mv /etc/Powermanager/power-key.conf /etc/triggerhappy/triggers.d/
