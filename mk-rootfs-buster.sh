@@ -151,12 +151,6 @@ apt-get install -y openbox
 dpkg -i  /packages/openbox/*.deb
 apt-get install -f -y
 
-#------------------pcmanfm------------
-echo -e "\033[36m Install pcmanfm.................... \033[0m"
-apt-get install -y pcmanfm
-dpkg -i  /packages/pcmanfm/*.deb
-apt-get install -f -y
-
 #------------------ffmpeg------------
 echo -e "\033[36m Install ffmpeg.................... \033[0m"
 apt-get install -y ffmpeg
